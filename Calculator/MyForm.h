@@ -108,7 +108,8 @@ namespace Calculator {
 			this->textBox1->Location = System::Drawing::Point(13, 13);
 			this->textBox1->Multiline = true;
 			this->textBox1->Name = L"textBox1";
-			this->textBox1->Size = System::Drawing::Size(323, 45);
+			this->textBox1->ReadOnly = true;
+			this->textBox1->Size = System::Drawing::Size(360, 90);
 			this->textBox1->TabIndex = 0;
 			this->textBox1->Text = L"0";
 			this->textBox1->TextAlign = System::Windows::Forms::HorizontalAlignment::Right;
@@ -119,7 +120,7 @@ namespace Calculator {
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
 			this->button1->BackColor = System::Drawing::Color::Black;
-			this->button1->FlatAppearance->BorderColor = System::Drawing::Color::Black;
+			this->button1->FlatAppearance->BorderColor = System::Drawing::Color::White;
 			this->button1->FlatAppearance->BorderSize = 0;
 			this->button1->FlatAppearance->CheckedBackColor = System::Drawing::Color::Black;
 			this->button1->FlatAppearance->MouseDownBackColor = System::Drawing::Color::Black;
@@ -130,7 +131,7 @@ namespace Calculator {
 			this->button1->ForeColor = System::Drawing::Color::White;
 			this->button1->Location = System::Drawing::Point(13, 64);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(80, 80);
+			this->button1->Size = System::Drawing::Size(117, 125);
 			this->button1->TabIndex = 1;
 			this->button1->Text = L"\?";
 			this->button1->UseVisualStyleBackColor = false;
@@ -142,7 +143,7 @@ namespace Calculator {
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
 			this->button2->BackColor = System::Drawing::Color::Black;
-			this->button2->FlatAppearance->BorderColor = System::Drawing::Color::Black;
+			this->button2->FlatAppearance->BorderColor = System::Drawing::Color::White;
 			this->button2->FlatAppearance->BorderSize = 0;
 			this->button2->FlatAppearance->CheckedBackColor = System::Drawing::Color::Black;
 			this->button2->FlatAppearance->MouseDownBackColor = System::Drawing::Color::Black;
@@ -153,7 +154,7 @@ namespace Calculator {
 			this->button2->ForeColor = System::Drawing::Color::White;
 			this->button2->Location = System::Drawing::Point(94, 64);
 			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(80, 80);
+			this->button2->Size = System::Drawing::Size(117, 125);
 			this->button2->TabIndex = 1;
 			this->button2->Text = L"C";
 			this->button2->UseVisualStyleBackColor = false;
@@ -165,7 +166,7 @@ namespace Calculator {
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
 			this->button3->BackColor = System::Drawing::Color::Black;
-			this->button3->FlatAppearance->BorderColor = System::Drawing::Color::Black;
+			this->button3->FlatAppearance->BorderColor = System::Drawing::Color::White;
 			this->button3->FlatAppearance->BorderSize = 0;
 			this->button3->FlatAppearance->CheckedBackColor = System::Drawing::Color::Black;
 			this->button3->FlatAppearance->MouseDownBackColor = System::Drawing::Color::Black;
@@ -176,7 +177,7 @@ namespace Calculator {
 			this->button3->ForeColor = System::Drawing::Color::White;
 			this->button3->Location = System::Drawing::Point(175, 64);
 			this->button3->Name = L"button3";
-			this->button3->Size = System::Drawing::Size(80, 80);
+			this->button3->Size = System::Drawing::Size(117, 125);
 			this->button3->TabIndex = 1;
 			this->button3->Text = L"CE";
 			this->button3->UseVisualStyleBackColor = false;
@@ -188,7 +189,7 @@ namespace Calculator {
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
 			this->button4->BackColor = System::Drawing::Color::Black;
-			this->button4->FlatAppearance->BorderColor = System::Drawing::Color::Black;
+			this->button4->FlatAppearance->BorderColor = System::Drawing::Color::White;
 			this->button4->FlatAppearance->BorderSize = 0;
 			this->button4->FlatAppearance->CheckedBackColor = System::Drawing::Color::Black;
 			this->button4->FlatAppearance->MouseDownBackColor = System::Drawing::Color::Black;
@@ -199,7 +200,7 @@ namespace Calculator {
 			this->button4->ForeColor = System::Drawing::Color::White;
 			this->button4->Location = System::Drawing::Point(256, 64);
 			this->button4->Name = L"button4";
-			this->button4->Size = System::Drawing::Size(80, 80);
+			this->button4->Size = System::Drawing::Size(117, 125);
 			this->button4->TabIndex = 1;
 			this->button4->Text = L"±";
 			this->button4->UseVisualStyleBackColor = false;
@@ -212,7 +213,7 @@ namespace Calculator {
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
 			this->button5->BackColor = System::Drawing::Color::Black;
-			this->button5->FlatAppearance->BorderColor = System::Drawing::Color::Black;
+			this->button5->FlatAppearance->BorderColor = System::Drawing::Color::White;
 			this->button5->FlatAppearance->BorderSize = 0;
 			this->button5->FlatAppearance->CheckedBackColor = System::Drawing::Color::Black;
 			this->button5->FlatAppearance->MouseDownBackColor = System::Drawing::Color::Black;
@@ -223,7 +224,7 @@ namespace Calculator {
 			this->button5->ForeColor = System::Drawing::Color::White;
 			this->button5->Location = System::Drawing::Point(13, 150);
 			this->button5->Name = L"button5";
-			this->button5->Size = System::Drawing::Size(80, 80);
+			this->button5->Size = System::Drawing::Size(117, 125);
 			this->button5->TabIndex = 1;
 			this->button5->Text = L"7";
 			this->button5->UseVisualStyleBackColor = false;
@@ -236,7 +237,7 @@ namespace Calculator {
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
 			this->button6->BackColor = System::Drawing::Color::Black;
-			this->button6->FlatAppearance->BorderColor = System::Drawing::Color::Black;
+			this->button6->FlatAppearance->BorderColor = System::Drawing::Color::White;
 			this->button6->FlatAppearance->BorderSize = 0;
 			this->button6->FlatAppearance->CheckedBackColor = System::Drawing::Color::Black;
 			this->button6->FlatAppearance->MouseDownBackColor = System::Drawing::Color::Black;
@@ -247,7 +248,7 @@ namespace Calculator {
 			this->button6->ForeColor = System::Drawing::Color::White;
 			this->button6->Location = System::Drawing::Point(94, 150);
 			this->button6->Name = L"button6";
-			this->button6->Size = System::Drawing::Size(80, 80);
+			this->button6->Size = System::Drawing::Size(117, 125);
 			this->button6->TabIndex = 1;
 			this->button6->Text = L"8";
 			this->button6->UseVisualStyleBackColor = false;
@@ -260,7 +261,7 @@ namespace Calculator {
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
 			this->button7->BackColor = System::Drawing::Color::Black;
-			this->button7->FlatAppearance->BorderColor = System::Drawing::Color::Black;
+			this->button7->FlatAppearance->BorderColor = System::Drawing::Color::White;
 			this->button7->FlatAppearance->BorderSize = 0;
 			this->button7->FlatAppearance->CheckedBackColor = System::Drawing::Color::Black;
 			this->button7->FlatAppearance->MouseDownBackColor = System::Drawing::Color::Black;
@@ -271,7 +272,7 @@ namespace Calculator {
 			this->button7->ForeColor = System::Drawing::Color::White;
 			this->button7->Location = System::Drawing::Point(175, 150);
 			this->button7->Name = L"button7";
-			this->button7->Size = System::Drawing::Size(80, 80);
+			this->button7->Size = System::Drawing::Size(117, 125);
 			this->button7->TabIndex = 1;
 			this->button7->Text = L"9";
 			this->button7->UseVisualStyleBackColor = false;
@@ -283,7 +284,7 @@ namespace Calculator {
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
 			this->button8->BackColor = System::Drawing::Color::Black;
-			this->button8->FlatAppearance->BorderColor = System::Drawing::Color::Black;
+			this->button8->FlatAppearance->BorderColor = System::Drawing::Color::White;
 			this->button8->FlatAppearance->BorderSize = 0;
 			this->button8->FlatAppearance->CheckedBackColor = System::Drawing::Color::Black;
 			this->button8->FlatAppearance->MouseDownBackColor = System::Drawing::Color::Black;
@@ -294,7 +295,7 @@ namespace Calculator {
 			this->button8->ForeColor = System::Drawing::Color::White;
 			this->button8->Location = System::Drawing::Point(256, 150);
 			this->button8->Name = L"button8";
-			this->button8->Size = System::Drawing::Size(80, 80);
+			this->button8->Size = System::Drawing::Size(117, 125);
 			this->button8->TabIndex = 1;
 			this->button8->Text = L"+";
 			this->button8->UseVisualStyleBackColor = false;
@@ -307,7 +308,7 @@ namespace Calculator {
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
 			this->button9->BackColor = System::Drawing::Color::Black;
-			this->button9->FlatAppearance->BorderColor = System::Drawing::Color::Black;
+			this->button9->FlatAppearance->BorderColor = System::Drawing::Color::White;
 			this->button9->FlatAppearance->BorderSize = 0;
 			this->button9->FlatAppearance->CheckedBackColor = System::Drawing::Color::Black;
 			this->button9->FlatAppearance->MouseDownBackColor = System::Drawing::Color::Black;
@@ -318,7 +319,7 @@ namespace Calculator {
 			this->button9->ForeColor = System::Drawing::Color::White;
 			this->button9->Location = System::Drawing::Point(13, 236);
 			this->button9->Name = L"button9";
-			this->button9->Size = System::Drawing::Size(80, 80);
+			this->button9->Size = System::Drawing::Size(117, 125);
 			this->button9->TabIndex = 1;
 			this->button9->Text = L"4";
 			this->button9->UseVisualStyleBackColor = false;
@@ -331,7 +332,7 @@ namespace Calculator {
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
 			this->button10->BackColor = System::Drawing::Color::Black;
-			this->button10->FlatAppearance->BorderColor = System::Drawing::Color::Black;
+			this->button10->FlatAppearance->BorderColor = System::Drawing::Color::White;
 			this->button10->FlatAppearance->BorderSize = 0;
 			this->button10->FlatAppearance->CheckedBackColor = System::Drawing::Color::Black;
 			this->button10->FlatAppearance->MouseDownBackColor = System::Drawing::Color::Black;
@@ -342,7 +343,7 @@ namespace Calculator {
 			this->button10->ForeColor = System::Drawing::Color::White;
 			this->button10->Location = System::Drawing::Point(94, 236);
 			this->button10->Name = L"button10";
-			this->button10->Size = System::Drawing::Size(80, 80);
+			this->button10->Size = System::Drawing::Size(117, 125);
 			this->button10->TabIndex = 1;
 			this->button10->Text = L"5";
 			this->button10->UseVisualStyleBackColor = false;
@@ -355,7 +356,7 @@ namespace Calculator {
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
 			this->button11->BackColor = System::Drawing::Color::Black;
-			this->button11->FlatAppearance->BorderColor = System::Drawing::Color::Black;
+			this->button11->FlatAppearance->BorderColor = System::Drawing::Color::White;
 			this->button11->FlatAppearance->BorderSize = 0;
 			this->button11->FlatAppearance->CheckedBackColor = System::Drawing::Color::Black;
 			this->button11->FlatAppearance->MouseDownBackColor = System::Drawing::Color::Black;
@@ -366,7 +367,7 @@ namespace Calculator {
 			this->button11->ForeColor = System::Drawing::Color::White;
 			this->button11->Location = System::Drawing::Point(175, 236);
 			this->button11->Name = L"button11";
-			this->button11->Size = System::Drawing::Size(80, 80);
+			this->button11->Size = System::Drawing::Size(117, 125);
 			this->button11->TabIndex = 1;
 			this->button11->Text = L"6";
 			this->button11->UseVisualStyleBackColor = false;
@@ -379,7 +380,7 @@ namespace Calculator {
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
 			this->button12->BackColor = System::Drawing::Color::Black;
-			this->button12->FlatAppearance->BorderColor = System::Drawing::Color::Black;
+			this->button12->FlatAppearance->BorderColor = System::Drawing::Color::White;
 			this->button12->FlatAppearance->BorderSize = 0;
 			this->button12->FlatAppearance->CheckedBackColor = System::Drawing::Color::Black;
 			this->button12->FlatAppearance->MouseDownBackColor = System::Drawing::Color::Black;
@@ -390,7 +391,7 @@ namespace Calculator {
 			this->button12->ForeColor = System::Drawing::Color::White;
 			this->button12->Location = System::Drawing::Point(256, 236);
 			this->button12->Name = L"button12";
-			this->button12->Size = System::Drawing::Size(80, 80);
+			this->button12->Size = System::Drawing::Size(117, 125);
 			this->button12->TabIndex = 1;
 			this->button12->Text = L"-";
 			this->button12->UseVisualStyleBackColor = false;
@@ -403,7 +404,7 @@ namespace Calculator {
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
 			this->button13->BackColor = System::Drawing::Color::Black;
-			this->button13->FlatAppearance->BorderColor = System::Drawing::Color::Black;
+			this->button13->FlatAppearance->BorderColor = System::Drawing::Color::White;
 			this->button13->FlatAppearance->BorderSize = 0;
 			this->button13->FlatAppearance->CheckedBackColor = System::Drawing::Color::Black;
 			this->button13->FlatAppearance->MouseDownBackColor = System::Drawing::Color::Black;
@@ -414,7 +415,7 @@ namespace Calculator {
 			this->button13->ForeColor = System::Drawing::Color::White;
 			this->button13->Location = System::Drawing::Point(13, 322);
 			this->button13->Name = L"button13";
-			this->button13->Size = System::Drawing::Size(80, 80);
+			this->button13->Size = System::Drawing::Size(117, 125);
 			this->button13->TabIndex = 1;
 			this->button13->Text = L"1";
 			this->button13->UseVisualStyleBackColor = false;
@@ -427,7 +428,7 @@ namespace Calculator {
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
 			this->button14->BackColor = System::Drawing::Color::Black;
-			this->button14->FlatAppearance->BorderColor = System::Drawing::Color::Black;
+			this->button14->FlatAppearance->BorderColor = System::Drawing::Color::White;
 			this->button14->FlatAppearance->BorderSize = 0;
 			this->button14->FlatAppearance->CheckedBackColor = System::Drawing::Color::Black;
 			this->button14->FlatAppearance->MouseDownBackColor = System::Drawing::Color::Black;
@@ -438,7 +439,7 @@ namespace Calculator {
 			this->button14->ForeColor = System::Drawing::Color::White;
 			this->button14->Location = System::Drawing::Point(94, 322);
 			this->button14->Name = L"button14";
-			this->button14->Size = System::Drawing::Size(80, 80);
+			this->button14->Size = System::Drawing::Size(117, 125);
 			this->button14->TabIndex = 1;
 			this->button14->Text = L"2";
 			this->button14->UseVisualStyleBackColor = false;
@@ -451,7 +452,7 @@ namespace Calculator {
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
 			this->button15->BackColor = System::Drawing::Color::Black;
-			this->button15->FlatAppearance->BorderColor = System::Drawing::Color::Black;
+			this->button15->FlatAppearance->BorderColor = System::Drawing::Color::White;
 			this->button15->FlatAppearance->BorderSize = 0;
 			this->button15->FlatAppearance->CheckedBackColor = System::Drawing::Color::Black;
 			this->button15->FlatAppearance->MouseDownBackColor = System::Drawing::Color::Black;
@@ -462,7 +463,7 @@ namespace Calculator {
 			this->button15->ForeColor = System::Drawing::Color::White;
 			this->button15->Location = System::Drawing::Point(175, 322);
 			this->button15->Name = L"button15";
-			this->button15->Size = System::Drawing::Size(80, 80);
+			this->button15->Size = System::Drawing::Size(117, 125);
 			this->button15->TabIndex = 1;
 			this->button15->Text = L"3";
 			this->button15->UseVisualStyleBackColor = false;
@@ -474,7 +475,7 @@ namespace Calculator {
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
 			this->button16->BackColor = System::Drawing::Color::Black;
-			this->button16->FlatAppearance->BorderColor = System::Drawing::Color::Black;
+			this->button16->FlatAppearance->BorderColor = System::Drawing::Color::White;
 			this->button16->FlatAppearance->BorderSize = 0;
 			this->button16->FlatAppearance->CheckedBackColor = System::Drawing::Color::Black;
 			this->button16->FlatAppearance->MouseDownBackColor = System::Drawing::Color::Black;
@@ -485,7 +486,7 @@ namespace Calculator {
 			this->button16->ForeColor = System::Drawing::Color::White;
 			this->button16->Location = System::Drawing::Point(256, 322);
 			this->button16->Name = L"button16";
-			this->button16->Size = System::Drawing::Size(80, 80);
+			this->button16->Size = System::Drawing::Size(117, 125);
 			this->button16->TabIndex = 1;
 			this->button16->Text = L"*";
 			this->button16->UseVisualStyleBackColor = false;
@@ -497,7 +498,7 @@ namespace Calculator {
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
 			this->button17->BackColor = System::Drawing::Color::Black;
-			this->button17->FlatAppearance->BorderColor = System::Drawing::Color::Black;
+			this->button17->FlatAppearance->BorderColor = System::Drawing::Color::White;
 			this->button17->FlatAppearance->BorderSize = 0;
 			this->button17->FlatAppearance->CheckedBackColor = System::Drawing::Color::Black;
 			this->button17->FlatAppearance->MouseDownBackColor = System::Drawing::Color::Black;
@@ -508,7 +509,7 @@ namespace Calculator {
 			this->button17->ForeColor = System::Drawing::Color::White;
 			this->button17->Location = System::Drawing::Point(12, 408);
 			this->button17->Name = L"button17";
-			this->button17->Size = System::Drawing::Size(80, 80);
+			this->button17->Size = System::Drawing::Size(117, 125);
 			this->button17->TabIndex = 1;
 			this->button17->Text = L"0";
 			this->button17->UseVisualStyleBackColor = false;
@@ -520,7 +521,7 @@ namespace Calculator {
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
 			this->button18->BackColor = System::Drawing::Color::Black;
-			this->button18->FlatAppearance->BorderColor = System::Drawing::Color::Black;
+			this->button18->FlatAppearance->BorderColor = System::Drawing::Color::White;
 			this->button18->FlatAppearance->BorderSize = 0;
 			this->button18->FlatAppearance->CheckedBackColor = System::Drawing::Color::Black;
 			this->button18->FlatAppearance->MouseDownBackColor = System::Drawing::Color::Black;
@@ -531,7 +532,7 @@ namespace Calculator {
 			this->button18->ForeColor = System::Drawing::Color::White;
 			this->button18->Location = System::Drawing::Point(93, 408);
 			this->button18->Name = L"button18";
-			this->button18->Size = System::Drawing::Size(80, 80);
+			this->button18->Size = System::Drawing::Size(117, 125);
 			this->button18->TabIndex = 1;
 			this->button18->Text = L".";
 			this->button18->UseVisualStyleBackColor = false;
@@ -543,7 +544,7 @@ namespace Calculator {
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
 			this->button19->BackColor = System::Drawing::Color::Black;
-			this->button19->FlatAppearance->BorderColor = System::Drawing::Color::Black;
+			this->button19->FlatAppearance->BorderColor = System::Drawing::Color::White;
 			this->button19->FlatAppearance->BorderSize = 0;
 			this->button19->FlatAppearance->CheckedBackColor = System::Drawing::Color::Black;
 			this->button19->FlatAppearance->MouseDownBackColor = System::Drawing::Color::Black;
@@ -554,7 +555,7 @@ namespace Calculator {
 			this->button19->ForeColor = System::Drawing::Color::White;
 			this->button19->Location = System::Drawing::Point(174, 408);
 			this->button19->Name = L"button19";
-			this->button19->Size = System::Drawing::Size(80, 80);
+			this->button19->Size = System::Drawing::Size(117, 125);
 			this->button19->TabIndex = 1;
 			this->button19->Text = L"=";
 			this->button19->UseVisualStyleBackColor = false;
@@ -566,7 +567,7 @@ namespace Calculator {
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
 			this->button20->BackColor = System::Drawing::Color::Black;
-			this->button20->FlatAppearance->BorderColor = System::Drawing::Color::Black;
+			this->button20->FlatAppearance->BorderColor = System::Drawing::Color::White;
 			this->button20->FlatAppearance->BorderSize = 0;
 			this->button20->FlatAppearance->CheckedBackColor = System::Drawing::Color::Black;
 			this->button20->FlatAppearance->MouseDownBackColor = System::Drawing::Color::Black;
@@ -577,7 +578,7 @@ namespace Calculator {
 			this->button20->ForeColor = System::Drawing::Color::White;
 			this->button20->Location = System::Drawing::Point(255, 408);
 			this->button20->Name = L"button20";
-			this->button20->Size = System::Drawing::Size(80, 80);
+			this->button20->Size = System::Drawing::Size(117, 125);
 			this->button20->TabIndex = 1;
 			this->button20->Text = L"/";
 			this->button20->UseVisualStyleBackColor = false;
@@ -588,7 +589,7 @@ namespace Calculator {
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::Black;
-			this->ClientSize = System::Drawing::Size(347, 492);
+			this->ClientSize = System::Drawing::Size(384, 501);
 			this->Controls->Add(this->button20);
 			this->Controls->Add(this->button16);
 			this->Controls->Add(this->button12);
@@ -610,7 +611,7 @@ namespace Calculator {
 			this->Controls->Add(this->button5);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->textBox1);
-			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::Fixed3D;
+			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedSingle;
 			this->HelpButton = true;
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
 			this->MaximizeBox = false;
